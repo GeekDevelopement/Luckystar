@@ -3,9 +3,8 @@ import logo from '../assests/starlogo.png'; // with import
 
 function Navbar() {
 return <>
-    <div className="container">
         <header>
-            <nav class="navbar navbar-expand-sm navbar-light" id="navbar-header">
+            <nav class="navbar navbar-expand-sm" id="navbar-header">
                 <div class="container">
                     <a href="/"><span class="navbar-text" id="header" href="/"><img id="logo" src={logo}
                                 alt="logo" /></span></a>
@@ -30,7 +29,6 @@ return <>
                 </div>
             </nav>
         </header>
-    </div>
 </>;
 }
 
