@@ -5,8 +5,8 @@ import dorsetlpogo from "../assests/dorsetlogo.png"
 
 function Logos() {
 return (
-    <div  id="brand-logo">
-        <div className="row mt-4 d-flex align-items-center text-center">
+    <div id="brand-logo" className="my-5">
+        <div className="row d-flex align-items-center text-center">
             <div className="col-lg-3 py-3">     
         <span  href="/"><img src={godrejlogo} alt="logo" /></span>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 function Form() {
 return (
 <section id="form" className="my-5">
-  <div id="auth" className="w-third-l mw6-l center-l ph3 container w-50">
+  <div id="auth" className="w-third-l mw6-l center-l ph3 container w-75">
     <h1 className="text-center">Get In Touch</h1>
     <form action="/login" method="POST">
       <div className="form-group">
@@ -16,13 +16,9 @@ return (
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <div className="form-group">
-        <a id="button" href="#" class="cta">
-          <span>Submit</span>
-          <svg width="13px" height="10px" viewBox="0 0 13 10">
-            <path d="M1,5 L11,5"></path>
-            <polyline points="8 1 12 5 8 9"></polyline>
-          </svg>
-        </a>
+        <div class="wrap">
+          <button class="button">Submit</button>
+        </div>
       </div>
     </form>
   </div>
