@@ -1,19 +1,19 @@
-import Carousel from "./components/homepage/Carousel";
-import Footer from "./components/homepage/Footer";
-import Form from "./components/homepage/Form";
-import ItemSection from "./components/homepage/ItemSection";
-import Logos from "./components/homepage/Logos";
-import Navbar from "./components/homepage/Navbar";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import ContactUs from "./components/routes/ContactUs";
+import Home from "./components/routes/Home";
+
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Carousel />
-    <ItemSection />
-    <Logos />
-    <Form />
-    <Footer />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route path="/contactus" element={<ContactUs />} />
+      </Routes>
+    </Router>
     </>
   );
 }
