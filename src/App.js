@@ -1,9 +1,9 @@
-import Carousel from "./components/Carousel";
-import Footer from "./components/Footer";
-import Form from "./components/Form";
-import ItemSection from "./components/ItemSection";
-import Logos from "./components/Logos";
-import Navbar from "./components/Navbar";
+import Carousel from "./components/homepage/Carousel";
+import Footer from "./components/homepage/Footer";
+import Form from "./components/homepage/Form";
+import ItemSection from "./components/homepage/ItemSection";
+import Logos from "./components/homepage/Logos";
+import Navbar from "./components/homepage/Navbar";
 
 function App() {
   return (
