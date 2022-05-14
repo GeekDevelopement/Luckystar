@@ -1,16 +1,20 @@
+/* Body */
 body{
   background-color: #F7F7F7;
 }
 
-#logo {
-    max-width: 190px;
-}  
+
 /* Navlinks */
+#logo {
+  max-width: 190px;
+}  
+
 #navbarSupportedContent li a{
     display: inline-block;
     position: relative;
     color: #F8F8F8;
 }
+
 #navbarSupportedContent li a::after{
     content: '';
   position: absolute;
@@ -23,17 +27,21 @@ body{
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+
 #navbarSupportedContent li a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
 #navbar-header{
   border-bottom: 4px solid #303841;
     background-color: #495664;
 }
+
 .navbar-expand-sm .navbar-nav .nav-link{
     color: #fff;
 }
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -42,7 +50,8 @@ body{
     border-color: #fff;
 } 
 
-/* Button */
+
+/* View Product button */
 .btn-three {
     color: #393E46;
     transition: all 0.5s;
@@ -116,15 +125,31 @@ body{
     transform: scale(1.01) translateY(0.2rem);
   }
 
+
+/* Form */
 #auth{
-    box-shadow: 0 10px 18px #dbd4d4;
-    padding: 20px;   
+  box-shadow: 0 10px 18px #dbd4d4;
+  padding: 20px;   
 }
 
-/* submit btn */
 .form-group{
   padding: 15px;
 }
+
+/* Brand-logo */
+#brand-logo{
+  border-top: 4px solid #303841;
+  border-bottom: 4px solid #303841;
+  background-color: #495664;
+}
+
+#brand-logo span img {
+  width: 175px;
+  text-align: center;
+}
+
+
+/* submit btn */
 .button {
   width: 140px;
   height: 45px;
@@ -142,7 +167,6 @@ body{
   cursor: pointer;
   outline: none;
   }
-
 .button:hover {
   background-color: #495664;
   box-shadow: 0px 15px 20px rgb(127, 137, 148);
@@ -150,17 +174,6 @@ body{
   transform: translateY(-7px);
 }
 
-/* Brand-logo */
-#brand-logo{
-  border-top: 4px solid #303841;
-  border-bottom: 4px solid #303841;
-  background-color: #495664;
-}
-
-#brand-logo span img {
-  width: 175px;
-  text-align: center;
-}
 
 /* Footer */
 footer{
