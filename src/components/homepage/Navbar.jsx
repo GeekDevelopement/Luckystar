@@ -20,7 +20,7 @@ return (
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/ourproducts">Our Products</Link>
+                            <Link className="nav-link" to="/products">Our Products</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contactus">Contact Us</Link>
