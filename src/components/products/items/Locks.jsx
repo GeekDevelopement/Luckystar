@@ -1,16 +1,22 @@
 import Card from "../Card";
+import casa from "../assets/locks/casa.png"
+import godrej from "../assets/locks/godrej.png"
+import europa from "../assets/locks/europa.png"
+import dorset from "../assets/locks/dorset.png"
 
 function Locks() {
 return (
 <div className="container my-4">
   <div className="row justify-content-center">
     <h2 className="text-center pb-3">Locks</h2>
-    <Card title="CASA" description="All types Of locks"
-      img="https://media.istockphoto.com/vectors/vector-3d-realistic-steel-bolts-nails-screws-vector-id1172147283?k=20&m=1172147283&s=612x612&w=0&h=QgIjVGDJTBwwTSQ7_kRAYM_3yDmsGZRR4qEa_OaAZPI=" />
-    <Card title="CASA" description="All types Of locks"
-      img="https://media.istockphoto.com/vectors/vector-3d-realistic-steel-bolts-nails-screws-vector-id1172147283?k=20&m=1172147283&s=612x612&w=0&h=QgIjVGDJTBwwTSQ7_kRAYM_3yDmsGZRR4qEa_OaAZPI=" />
-    <Card title="CASA" description="All types Of locks"
-      img="https://media.istockphoto.com/vectors/vector-3d-realistic-steel-bolts-nails-screws-vector-id1172147283?k=20&m=1172147283&s=612x612&w=0&h=QgIjVGDJTBwwTSQ7_kRAYM_3yDmsGZRR4qEa_OaAZPI=" />
+    <Card title="Casa" description="All types Of locks"
+      img={casa} />
+    <Card title="Godrej" description="All types Of locks"
+      img={godrej} />
+   <Card title="Europa" description="All types Of locks"
+      img={europa} />
+       <Card title="Dorset" description="All types Of locks"
+      img={dorset} />
   </div>
 </div>
 );
