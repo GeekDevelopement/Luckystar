@@ -1,8 +1,8 @@
 import React from "react";
 
 function Body() {
-return (
-<div className="background">
+return (<>
+<div className="d-flex py-5 my-5">
   <div className="container" id="container-cu">
     <div className="screen">
       <div className="screen-body">
@@ -11,9 +11,6 @@ return (
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div className="app-contact">Gulal Wadi, 1st Floor, Room, 42, Kika St, Maharashtra <br /> 
-          moh.morbi8@gmail.com <br />+91 88500 86234
-</div> 
         </div>
         <div className="screen-body-item">
           <div className="app-form">
@@ -39,7 +36,7 @@ return (
     </div>
   </div>
 </div>
-
+</>
 );
 }
 
