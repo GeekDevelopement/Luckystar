@@ -7,7 +7,7 @@ function FF() {
 return (
 <div className="container my-4">
     <div className="row justify-content-center">
-        <h2 className="text-center pb-3">Furniture Fittings And Accessories</h2>
+        <h2  className="text-center pb-3">Furniture Fittings And Accessories</h2>
         <Card title="Ebco"
             img={ebco}/>
         <Card title="Hettich" 
