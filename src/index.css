@@ -340,9 +340,6 @@ footer{
 
 /* Products */
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
-#product-name{
-  background-color: #666;
-}
 
 #container {
   display: flex;
@@ -437,7 +434,7 @@ footer{
     padding: 10px 20px;
     background: #fff;
     border-radius: 4px;
-    margin-top: px;
+    margin-top: 90px;
     text-decoration: none;
     font-weight: 600;
     color: #111;

@@ -5,7 +5,7 @@ import Channel from "./items/Channel"
 function OurProducts() {
   return (
       <>
-      <h1 className="my-3 text-center">OUR PRODUCT CATEGORIES</h1>
+      <h1 className="my-4 text-center text-decoration-underline">OUR PRODUCT CATEGORIES</h1>
       <FF />
       <Locks />
       <Channel /> 
