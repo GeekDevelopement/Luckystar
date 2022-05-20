@@ -5,7 +5,7 @@ function ItemSection() {
 return (
     <section id="product">
         <div className="container my-4">
-            <h2 className="text-center pb-4">PRODUCT CATEGORIES</h2>
+            <h1 id="categories-heading" className="pb-3">PRODUCT CATEGORIES</h1>
             <div className="row justify-content-center">
                 <Item title="SCREW" description="All types Of Screw" rate="250"
                     img="https://media.istockphoto.com/vectors/vector-3d-realistic-steel-bolts-nails-screws-vector-id1172147283?k=20&m=1172147283&s=612x612&w=0&h=QgIjVGDJTBwwTSQ7_kRAYM_3yDmsGZRR4qEa_OaAZPI=" />

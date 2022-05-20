@@ -2,7 +2,7 @@ function Body() {
 return (
 <>
 <div className="py-5 my-5 background">
-  <div className="container" id="container-cu">
+  <div id="container-cu">
     <div className="screen">
       <div className="screen-body">
         <div className="screen-body-item left">

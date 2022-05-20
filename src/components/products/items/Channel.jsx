@@ -5,9 +5,9 @@ import hepo from "../assets/channel/hepo.png"
 
 function Channel() {
 return (
-<div className="container my-4">
+<div className="my-4">
     <div className="row justify-content-center">
-        <h2 className="text-center pb-3">Telescopic Channel</h2>
+        <h3 id="product-heading">Telescopic Channel</h3>
         <Card title="Casa" description="Telescopic Channel"
             img={casa} />
         <Card title="Baba" description="Telescopic Channel"

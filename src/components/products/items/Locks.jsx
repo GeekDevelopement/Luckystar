@@ -6,9 +6,9 @@ import dorset from "../assets/locks/dorset.png"
 
 function Locks() {
 return (
-<div className="container my-4">
+<div className="my-4">
   <div className="row justify-content-center">
-    <h2 className="text-center pb-3">Locks</h2>
+    <h3 id="product-heading">Locks</h3>
     <Card title="Casa" description="All types Of locks"
       img={casa} />
     <Card title="Godrej" description="All types Of locks"

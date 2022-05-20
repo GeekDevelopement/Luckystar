@@ -5,9 +5,9 @@ import hettich from "../assets/ff/hettich.png"
 
 function FF() {
 return (
-<div className="container my-4">
+<div className="my-4">
     <div className="row justify-content-center">
-        <h2  className="text-center pb-3">Furniture Fittings And Accessories</h2>
+        <h3 id="product-heading">Furniture Fittings And Accessories</h3>
         <Card title="Ebco"
             img={ebco}/>
         <Card title="Hettich" 

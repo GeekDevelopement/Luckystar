@@ -110,7 +110,7 @@ ul{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    color: #393E46;
+    color: #495664;
     margin: 10px;
     cursor: pointer;
     transition: all 0.2s ease-out;
@@ -457,7 +457,7 @@ footer{
     position: relative;
     width: 320px;
     height: 450px;
-    background: #393E46;
+    background: rgba(73, 86, 100, 0.9);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -554,3 +554,17 @@ footer{
     transform: translateY(0px);
     transition-delay: .7s;
 } 
+
+#product-heading{
+  color: #fff;
+  background-color: #495664;
+  text-align: center;
+  padding: 10px 0 10px;
+}
+
+#categories-heading{
+  color: #303841;
+  text-align: center;
+  text-decoration: underline;
+  margin: 25px 0 15px 0;
+}
