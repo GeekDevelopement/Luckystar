@@ -250,7 +250,7 @@ font-style: normal;
   background-color: #495664;
 }
 
-#brand-logo span img {
+#brand-logo a img {
   width: 175px;
   text-align: center;
 }
@@ -456,7 +456,7 @@ footer{
 #container .card {
     position: relative;
     width: 320px;
-    height: 450px;
+    height: 550px;
     background: rgba(73, 86, 100, 0.9);
     border-radius: 20px;
     overflow: hidden;
@@ -525,7 +525,7 @@ footer{
 }
 
 #container .card:hover .contentBx {
-    height: 210px;
+    height: 200px;
 }
 
 #container .card .contentBx h2 {
@@ -540,7 +540,7 @@ footer{
     padding: 10px 20px;
     background: #fff;
     border-radius: 4px;
-    margin-top: 90px;
+    margin-top: 80px;
     text-decoration: none;
     font-weight: 600;
     color: #111;

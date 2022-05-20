@@ -8,16 +8,16 @@ return (
     <div id="brand-logo" className="my-5">
         <div className="row d-flex align-items-center text-center">
             <div className="col-lg-3 py-3">     
-        <span  href="/"><img src={godrejlogo} alt="logo" /></span>
+        <a  href="/"><img src={godrejlogo} alt="logo" /></a>
         </div>
         <div className="col-lg-3 py-3"> 
-            <span href="/"><img src={ebcologo} alt="logo" /></span>
+            <a href="/"><img src={ebcologo} alt="logo" /></a>
             </div>
             <div className="col-lg-3 py-3"> 
-            <span href="/"><img src={europalogo} alt="logo" /></span>
+            <a href="/"><img src={europalogo} alt="logo" /></a>
             </div>
             <div className="col-lg-3 py-3"> 
-            <span href="/"><img src={dorsetlpogo} alt="logo" /></span>
+            <a href="/"><img src={dorsetlpogo} alt="logo" /></a>
             </div>
         </div>
     </div>

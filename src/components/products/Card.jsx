@@ -10,7 +10,7 @@ return (
       </div>
       <div className="contentBx">
         <h2>{props.title}</h2>
-        <a href={props.title}>View Products</a>
+        <a href={props.link}>View Products</a>
       </div>
     </div>
   </div>

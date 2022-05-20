@@ -1,5 +1,5 @@
 import Body from "../contactus/Body";
-import Footer from "../contactus/Footer";
+import Footer from "../homepage/Footer";
 import Header from "../contactus/Header";
 
 function ContactUs() {

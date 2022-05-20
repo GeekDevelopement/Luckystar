@@ -28,6 +28,9 @@ return (
           <li className="mb-3">
             <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+91 88500 86234</span>
           </li>
+          <li className="mb-3">
+            <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+022 4015 4208</span>
+          </li>
         </ul>
       </div>
       <div className="col-lg-4 col-md-6 mb-4 mb-md-0">

@@ -8,11 +8,11 @@ return (
 <div className="my-4">
     <div className="row justify-content-center">
         <h3 id="product-heading">Telescopic Channel</h3>
-        <Card title="Casa" description="Telescopic Channel"
+        <Card title="Casa"
             img={casa} />
-        <Card title="Baba" description="Telescopic Channel"
+        <Card title="Baba"
             img={baba} />
-        <Card title="Hepo" description="Telescopic Channel"
+        <Card title="Hepo" 
             img={hepo} />
     </div>
 </div>

@@ -9,13 +9,13 @@ return (
 <div className="my-4">
   <div className="row justify-content-center">
     <h3 id="product-heading">Locks</h3>
-    <Card title="Casa" description="All types Of locks"
+    <Card title="Casa" 
       img={casa} />
-    <Card title="Godrej" description="All types Of locks"
+    <Card title="Godrej" 
       img={godrej} />
-   <Card title="Europa" description="All types Of locks"
+   <Card title="Europa" 
       img={europa} />
-       <Card title="Dorset" description="All types Of locks"
+       <Card title="Dorset" 
       img={dorset} />
   </div>
 </div>
