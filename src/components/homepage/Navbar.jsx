@@ -7,8 +7,8 @@ return (
     <header>
         <nav className="navbar navbar-expand-lg" id="navbar-header">
             <div className="container">
-                <Link to="/"><span className="navbar-text" id="header" to="/"><img id="logo" src={logo}
-                            alt="logo" /></span></Link>
+                <Link className="navbar-brand" id="logo" to="/"><img id="logo" src={logo}
+                            alt="logo" /></Link>
                 <button id="nav-toggle-button" className="navbar-toggler custom-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
