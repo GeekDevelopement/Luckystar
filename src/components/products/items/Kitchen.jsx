@@ -7,8 +7,8 @@ function Kitchen() {
     <div className="my-4">
     <div className="row justify-content-center">
       <h3 id="product-heading">Kitchen Accesories</h3>
-      <Card title="Everyday" img={everyday}/>
-      <Card title="Wicker Basket" img={wicker}/>
+      <Card title="Everyday" img={everyday} link="everyday"/>
+      <Card title="Wicker Basket" img={wicker} link="wicker"/>
     </div>
   </div>
   );

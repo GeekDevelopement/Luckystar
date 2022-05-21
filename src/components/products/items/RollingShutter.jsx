@@ -7,8 +7,8 @@ function RollingShutter() {
     <div className="my-4">
     <div className="row justify-content-center">
       <h3 id="product-heading">Rolling Shutter</h3>
-      <Card title="Olive" img={olive}/>
-      <Card title="Rehau" img={rehau}/>
+      <Card title="Olive" img={olive} link="olive"/>
+      <Card title="Rehau" img={rehau} link="rehau"/>
     </div>
   </div>
   );

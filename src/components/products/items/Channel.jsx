@@ -9,11 +9,11 @@ return (
     <div className="row justify-content-center">
         <h3 id="product-heading">Telescopic Channel</h3>
         <Card title="Casa"
-            img={casa} />
+            img={casa} link="casa"/>
         <Card title="Baba"
-            img={baba} />
+            img={baba} link="baba"/>
         <Card title="Hepo" 
-            img={hepo} />
+            img={hepo} link="hepo"/>
     </div>
 </div>
 )

@@ -10,13 +10,13 @@ return (
   <div className="row justify-content-center">
     <h3 id="product-heading">Locks</h3>
     <Card title="Casa" 
-      img={casa} />
+      img={casa} link="casa" />
     <Card title="Godrej" 
-      img={godrej} />
+      img={godrej} link="godrej" />
    <Card title="Europa" 
-      img={europa} />
+      img={europa} link="europa" />
        <Card title="Dorset" 
-      img={dorset} />
+      img={dorset} link="dorset" />
   </div>
 </div>
 );

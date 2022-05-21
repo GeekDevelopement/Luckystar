@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function Card(props) {
 return (
@@ -10,11 +10,12 @@ return (
       </div>
       <div className="contentBx">
         <h2>{props.title}</h2>
-        <a href={props.link}>View Products</a>
+        <a href={`/products/${props.link}`}>View Products</a>
       </div>
     </div>
   </div>
 </div>
+
 );
 }
 

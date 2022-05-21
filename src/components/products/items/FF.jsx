@@ -9,11 +9,11 @@ return (
     <div className="row justify-content-center">
         <h3 id="product-heading">Furniture Fittings And Accessories</h3>
         <Card title="Ebco"
-            img={ebco}/>
+            img={ebco} link="ebco"/>
         <Card title="Hettich" 
-            img={hettich} />
+            img={hettich} link="hettich" />
         <Card title="Hafele"
-            img={hafele} />
+            img={hafele} link="hafele" />
     </div>
 </div>
 );

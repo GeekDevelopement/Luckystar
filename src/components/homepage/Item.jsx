@@ -1,5 +1,3 @@
-import React from "react";
-
 function Item(props) {
 return (
 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
@@ -10,11 +8,13 @@ return (
         <h5>{props.title}</h5>
         <p className="text-muted">{props.description}</p>
       </div>
+      <a id="nocss" href={`/products/${props.link}`}>
       <div className="box-3 pt-1 pb-2 text-center">
         <div className="btn btn-three">
-          <span>View product</span>
+          View product
         </div>
       </div>
+      </a>
     </div>
   </div>
 </div>

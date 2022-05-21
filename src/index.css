@@ -54,6 +54,10 @@ ul{
 
 
 /* View Product button */
+a {
+  text-decoration: none;
+  color: #303841;
+}
 .btn-three {
     color: #393E46;
     transition: all 0.5s;
@@ -567,4 +571,101 @@ footer{
   text-align: center;
   text-decoration: underline;
   margin: 25px 0 15px 0;
+}
+
+/* View products */
+#card {
+  margin: 50px;
+  position: relative;
+  width: 320px;
+  height: 480px;
+  background: #495664;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 18px rgb(127, 137, 148);
+
+}
+
+#card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+#card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+#card::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 6em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+#card .imgBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+#card .contentBox {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+#card .contentBox h3 {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#card .contentBox p {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#card .contentBox .price {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.mouse {
+  height: 300px;
+  width: auto;
+}
+
+/* Title brand */
+#brand{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff  ;
+  background-color: #393E46;
+  box-shadow: 0 10px 18px rgb(127, 137, 148);
 }
