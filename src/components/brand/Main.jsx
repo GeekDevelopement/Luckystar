@@ -26,59 +26,59 @@ function Main() {
     return(
     <Hepo />
     )
-  } if(path == "baba"){
+  } if(path === "baba"){
     return (
     <Baba />
     )
-  }if(path == "ebco"){
+  }if(path === "ebco"){
     return (
     <Ebco />
     )
-  }if(path == "everyday"){
+  }if(path === "everyday"){
     return (
     <Everyday />
     )
-  }if(path == "flora"){
+  }if(path === "flora"){
     return (
     <Flora />
     )
-  }if(path == "hafele"){
+  }if(path === "hafele"){
     return (
     <Hafele />
     )
-  }if(path == "hemco"){
+  }if(path === "hemco"){
     return (
     <Hemco />
     )
-  }if(path == "hettich"){
+  }if(path === "hettich"){
     return (
     <Hettich />
     )
-  }if(path == "olive"){
+  }if(path === "olive"){
     return (
     <Olive />
     )
-  }if(path == "palladium"){
+  }if(path === "palladium"){
     return (
     <Palldium />
     )
-  }if(path == "rehau"){
+  }if(path === "rehau"){
     return (
     <Rehau />
     )
-  }if(path == "wicker"){
+  }if(path === "wicker"){
     return (
     <Wicker />
     )
-  }if(path == "godrej"){
+  }if(path === "godrej"){
     return (
     <Godrej />
     )
-  }if(path == "europa"){
+  }if(path === "europa"){
     return (
     <Europa />
     )
-  }if(path == "dorset"){
+  }if(path === "dorset"){
     return (
     <Dorset />
     )
