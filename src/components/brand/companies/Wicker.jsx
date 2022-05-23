@@ -7,7 +7,7 @@ return (
 <>
     <Header />
     <div className="row justify-content-center">
-        <h1 id="brand">Wicker</h1>
+        <h1 id="brand">Wicker Baskets</h1>
         <Card />
         <Card />
         <Card />
