@@ -7,8 +7,8 @@ return (
         <div className="container my-4">
             <h1 id="categories-heading" className="pb-3">PRODUCT CATEGORIES</h1>
             <div className="row justify-content-center">
-                <Item title="SCREW" description="All types Of Screw" link="screw"
-                    img="https://media.istockphoto.com/vectors/vector-3d-realistic-steel-bolts-nails-screws-vector-id1172147283?k=20&m=1172147283&s=612x612&w=0&h=QgIjVGDJTBwwTSQ7_kRAYM_3yDmsGZRR4qEa_OaAZPI=" />
+                <Item title="HEMCO" description="Glass and door fitting" link="hemco"
+                    img="https://5.imimg.com/data5/BO/VD/US/SELLER-13990542/hemco-floor-spring-500x500.jpg" />
                 <Item title="CASA" description="Tubular locks" link="casa"
                     img="https://3.imimg.com/data3/BI/AP/MY-3241453/cylindrical-tubular-locks-500x500.jpg" />
                 <Item title="EUROPA" description="Antique locks" link="europa"
@@ -21,8 +21,8 @@ return (
                     img="https://5.imimg.com/data5/BR/NP/MY-36244974/hafele-draw-hyderabad-500x500.jpg" />
                 <Item title="EBCO" description="Furniture Fittings And Accessories" link="ebco"
                     img="https://ebco.in/image/cache/catalog/Table%20Bracket/table-bracket-550x550.jpg" />
-                <Item title="NAILS" description="All types Of nails" link="nails"
-                    img="https://3.imimg.com/data3/JI/DY/GLADMIN-1354/nails-500x500.jpg" />
+                <Item title="PALLADIUM" description="Hinges" link="palladium"
+                    img="https://5.imimg.com/data5/SELLER/Default/2020/11/YL/VM/TL/13312678/palladium-hinges-towerbolts-500x500.png" />
             </div>
         </div>
     </section>
